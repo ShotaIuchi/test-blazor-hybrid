@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using TestBlazorHybrid.Repository;
 
 namespace TestBlazorHybrid
 {
@@ -20,6 +21,8 @@ namespace TestBlazorHybrid
     		builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
+
+            builder.Services.AddSingleton<WeatherForecastRepository>();
 
             return builder.Build();
         }
