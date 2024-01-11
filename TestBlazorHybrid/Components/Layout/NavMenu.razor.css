@@ -46,6 +46,10 @@
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-list-nested' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M4.5 11.5A.5.5 0 0 1 5 11h10a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm-2-4A.5.5 0 0 1 1 3h10a.5.5 0 0 1 0 1H1a.5.5 0 0 1-.5-.5z'/%3E%3C/svg%3E");
 }
 
+.bi-list-error-nav-menu {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='white' class='bi bi-star' viewBox='0 0 16 16'%3E%3Cpath d='M2.866 14.85l-2.453-1.287a1 1 0 0 1-.413-1.708l1.71-1.668-0.402-2.345a1 1 0 0 1 .291-0.956L5.6 5.158l2.347-0.401a1 1 0 0 1 0.956-0.291l1.666 1.71 2.346-0.402a1 1 0 0 1 1.708 0.413l1.287 2.453-1.71 1.666 0.402 2.346a1 1 0 0 1-.291 0.956l-1.666 1.708-2.346 0.402a1 1 0 0 1-0.956-0.291l-1.71-1.666-2.346 0.402a1 1 0 0 1-1.708-0.413z'/%3E%3C/svg%3E");
+}
+
 .nav-item {
     font-size: 0.9rem;
     padding-bottom: 0.5rem;
