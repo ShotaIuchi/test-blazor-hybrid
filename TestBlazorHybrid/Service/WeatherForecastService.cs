@@ -7,7 +7,7 @@ using TestBlazorHybrid.Model;
 
 namespace TestBlazorHybrid.Repository
 {
-    public class WeatherForecastRepository
+    public class WeatherForecastService
     {
         private static readonly string[] summaries = new[]
         {

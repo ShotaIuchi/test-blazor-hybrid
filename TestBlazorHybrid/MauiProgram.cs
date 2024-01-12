@@ -22,7 +22,7 @@ namespace TestBlazorHybrid
     		builder.Logging.AddDebug();
 #endif
 
-            builder.Services.AddSingleton<WeatherForecastRepository>();
+            builder.Services.AddSingleton<WeatherForecastService>();
 
             return builder.Build();
         }
