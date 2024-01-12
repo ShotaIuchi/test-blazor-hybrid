@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBlazorHybrid", "TestBlazorHybrid\TestBlazorHybrid.csproj", "{7C701403-A88E-4293-9011-91EA44652FA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestBlazorHybrid", "TestBlazorHybrid\TestBlazorHybrid.csproj", "{7C701403-A88E-4293-9011-91EA44652FA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestShared", "TestShared\TestShared.csproj", "{C9027963-9178-417D-BEDE-762A26F1D6D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRestAPI", "TestRestAPI\TestRestAPI.csproj", "{51F3F60F-9C01-426A-8E91-581F8E0225A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,14 @@ Global
 		{7C701403-A88E-4293-9011-91EA44652FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C701403-A88E-4293-9011-91EA44652FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C701403-A88E-4293-9011-91EA44652FA1}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9027963-9178-417D-BEDE-762A26F1D6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9027963-9178-417D-BEDE-762A26F1D6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9027963-9178-417D-BEDE-762A26F1D6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9027963-9178-417D-BEDE-762A26F1D6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F3F60F-9C01-426A-8E91-581F8E0225A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F3F60F-9C01-426A-8E91-581F8E0225A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F3F60F-9C01-426A-8E91-581F8E0225A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F3F60F-9C01-426A-8E91-581F8E0225A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
